@@ -41,7 +41,7 @@
 1. ติดตั้ง Node.js และ Git ลงในเครื่องคอมพิวเตอร์
 2. โคลน (Clone) Repository ของโปรเจกต์นี้:
    ```bash
-   git clone [ใส่ลิงก์ GitHub Repository]
+   git clone [https://github.com/phumpatkee/Dear.git]
 3.เข้าไปในโฟลเดอร์โปรเจกต์และติดตั้ง Dependencies:
 cd skin-scan-app
 npm install
