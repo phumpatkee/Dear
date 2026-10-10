@@ -1,0 +1,9 @@
+{
+  "best_validation_accuracy": 0.8948069241011984,
+  "test_accuracy": 0.8982035928143712,
+  "classes": [
+    "benign",
+    "melanoma",
+    "nevus"
+  ]
+}

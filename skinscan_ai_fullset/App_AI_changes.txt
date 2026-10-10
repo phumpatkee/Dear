@@ -1,0 +1,72 @@
+# SkinScan AI — App.tsx changes
+
+ใน App.tsx เวอร์ชันล่าสุดของมึง แก้ 2 จุดนี้เท่านั้น
+
+1) API_URL
+
+หา:
+
+const API_URL =
+  'https://YOUR-SPACE-NAME.hf.space/predict';
+
+เปลี่ยนเป็น URL Space จริง เช่น:
+
+const API_URL =
+  'https://pk20-skinscan-ai.hf.space/predict';
+
+2) uploadAndAnalyze
+
+แทนที่ฟังก์ชัน uploadAndAnalyze เดิมทั้งก้อนด้วย:
+
+const uploadAndAnalyze = async () => {
+  if (!image) return;
+
+  setLoading(true);
+  setResult(null);
+
+  try {
+    const formData = new FormData();
+
+    formData.append(
+      'file',
+      {
+        uri: image,
+        type: 'image/jpeg',
+        name: 'lesion.jpg',
+      } as any
+    );
+
+    const response = await fetch(API_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'multipart/form-data',
+      },
+      body: formData,
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      throw new Error(errorText || `HTTP ${response.status}`);
+    }
+
+    const data = await response.json();
+
+    setResult(data);
+  } catch (error) {
+    console.log('AI API error:', error);
+
+    Alert.alert(
+      'การวิเคราะห์ล้มเหลว',
+      'ไม่สามารถเชื่อมต่อ AI Server ได้ กรุณาตรวจสอบ API URL และอินเทอร์เน็ต'
+    );
+
+    setResult(null);
+  } finally {
+    setLoading(false);
+  }
+};
+
+หมายเหตุ:
+- ลบ fallback ที่เคยสุ่ม/จำลองเป็น Melanoma 92% ออก
+- ระบบจะใช้ผลจริงจาก model ผ่าน /predict
+- UI เดิมของมึงใช้ result.prediction, result.confidence และ result.risk_level ได้เลย
