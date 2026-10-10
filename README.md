@@ -31,9 +31,9 @@
 ---
 
 ## แผนภาพสถาปัตยกรรมของระบบ (System Architecture)
-![System Architecture Diagram]([<img width="925" height="474" alt="Diagram" src="https://github.com/user-attachments/assets/c8ec35b3-b9ad-45ee-8e5d-fca9fc3e7fb2" />
+([<img width="925" height="474" alt="Diagram" src="https://github.com/user-attachments/assets/c8ec35b3-b9ad-45ee-8e5d-fca9fc3e7fb2" />
 ])
-*ระบบประกอบด้วย Frontend ที่พัฒนาด้วย React Native เชื่อมต่อผ่าน REST API ไปยัง Backend Server และ AI Inference Server ที่ใช้ประมวลผลภาพถ่ายด้วยโมเดล Deep Learning ที่อยู่บน Cloud เพื่อลดภาระการทำงานของสมาร์ทโฟน*[span_9](start_span)[span_9](end_span)
+*ระบบประกอบด้วย Frontend ที่พัฒนาด้วย React Native เชื่อมต่อผ่าน REST API ไปยัง Backend Server และ AI Inference Server ที่ใช้ประมวลผลภาพถ่ายด้วยโมเดล Deep Learning ที่อยู่บน Cloud เพื่อลดภาระการทำงานของสมาร์ทโฟน
 
 ---
 
