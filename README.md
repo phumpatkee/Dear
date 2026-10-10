@@ -1,6 +1,6 @@
 # SkinScan — AI-assisted Skin Lesion Screening 🔍
 
-**SkinScan** คือแอปพลิเคชันบนสมาร์ทโฟนที่พัฒนาขึ้นเพื่อเป็นเครื่องมือช่วยคัดกรองความผิดปกติของรอยโรคบนผิวหนังเบื้องต้น โดยใช้เทคโนโลยีปัญญาประดิษฐ์ (AI) ในการวิเคราะห์ภาพถ่าย เพื่อประเมินระดับความเสี่ยงและใช้เป็นข้อมูลประกอบการตัดสินใจในการเข้าพบแพทย์[span_2](start_span)[span_2](end_span)
+**SkinScan** คือแอปพลิเคชันบนสมาร์ทโฟนที่พัฒนาขึ้นเพื่อเป็นเครื่องมือช่วยคัดกรองความผิดปกติของรอยโรคบนผิวหนังเบื้องต้น โดยใช้เทคโนโลยีปัญญาประดิษฐ์ (AI) ในการวิเคราะห์ภาพถ่าย เพื่อประเมินระดับความเสี่ยงและใช้เป็นข้อมูลประกอบการตัดสินใจในการเข้าพบแพทย์
 
 ---
 
@@ -15,24 +15,24 @@
 ---
 
 ## ปัญหาและแรงจูงใจ (Motivation)
-ปัญหามะเร็งผิวหนังและโรคผิวหนังมีแนวโน้มเพิ่มขึ้นอย่างต่อเนื่อง รอยโรคในระยะเริ่มต้นมักมีขนาดเล็กหรือมีการเปลี่ยนแปลงที่สังเกตได้ยาก ทำให้ผู้ป่วยอาจมองข้ามและไม่ไปพบแพทย์ SkinScan จึงถูกพัฒนาขึ้นเพื่อเป็นเครื่องมือช่วยคัดกรองและติดตามการเปลี่ยนแปลงของรอยโรคเบื้องต้น เพื่อให้ผู้ใช้ตระหนักถึงความผิดปกติและเข้ารับการประเมินจากแพทย์ได้อย่างทันท่วงที[span_3](start_span)[span_3](end_span)
+ปัญหามะเร็งผิวหนังและโรคผิวหนังมีแนวโน้มเพิ่มขึ้นอย่างต่อเนื่อง รอยโรคในระยะเริ่มต้นมักมีขนาดเล็กหรือมีการเปลี่ยนแปลงที่สังเกตได้ยาก ทำให้ผู้ป่วยอาจมองข้ามและไม่ไปพบแพทย์ SkinScan จึงถูกพัฒนาขึ้นเพื่อเป็นเครื่องมือช่วยคัดกรองและติดตามการเปลี่ยนแปลงของรอยโรคเบื้องต้น เพื่อให้ผู้ใช้ตระหนักถึงความผิดปกติและเข้ารับการประเมินจากแพทย์ได้อย่างทันท่วงที
 
 ---
 
 ## ฟีเจอร์หลักและฟีเจอร์ขั้นสูง (Features)
 **ฟีเจอร์หลัก (Main Features):**
-1. **สแกนตรวจโรค (AI Lesion Screening):** รับข้อมูลภาพถ่ายจากผู้ใช้เพื่อส่งไปให้ AI วิเคราะห์ และแสดงผลลัพธ์การจัดระดับความเสี่ยง (Triage-style workflow)[span_4](start_span)[span_4](end_span)
-2. **ประวัติการตรวจโรค (Dashboard/History):** บันทึกและแสดงประวัติรอยโรคของผู้ใช้ (Patient/session history) เพื่อให้สามารถติดตามผลย้อนหลังได้[span_5](start_span)[span_5](end_span)
+1. **สแกนตรวจโรค (AI Lesion Screening):** รับข้อมูลภาพถ่ายจากผู้ใช้เพื่อส่งไปให้ AI วิเคราะห์ และแสดงผลลัพธ์การจัดระดับความเสี่ยง (Triage-style workflow)
+2. **ประวัติการตรวจโรค (Dashboard/History):** บันทึกและแสดงประวัติรอยโรคของผู้ใช้ (Patient/session history) เพื่อให้สามารถติดตามผลย้อนหลังได้
 3. **คลังความรู้ (Knowledge Hub):** ให้ข้อมูลเกี่ยวกับโรคผิวหนังและอาการเบื้องต้นเพื่อความเข้าใจที่ถูกต้อง
-4. **โปรไฟล์ (Profile):** จัดการข้อมูลส่วนตัวและแสดงหน้า Consent/privacy notice ก่อนเริ่มใช้งาน[span_6](start_span)[span_6](end_span)
+4. **โปรไฟล์ (Profile):** จัดการข้อมูลส่วนตัวและแสดงหน้า Consent/privacy notice ก่อนเริ่มใช้งาน
 
 **ฟีเจอร์ขั้นสูง (Advanced Feature):**
-- **การวิเคราะห์ภาพด้วย AI เชิงลึก (Advanced AI Lesion Analysis & Explainability):** ระบบใช้โมเดล Deep Learning ที่ผ่านการฝึกสอน (Train) ด้วยชุดข้อมูลภาพทางการแพทย์เฉพาะทาง (เช่น HAM10000) ผ่าน Google Colab โดยเมื่อวิเคราะห์ภาพเสร็จสิ้น ระบบจะไม่เพียงแค่บอกผลลัพธ์ แต่จะแสดงค่าความมั่นใจของโมเดล (Confidence Score / Probability) พร้อมระบบอธิบายผลเบื้องต้น (Basic Explainability) เช่น การไฮไลต์พื้นที่ (Highlighted region) บริเวณที่พบความผิดปกติบนภาพถ่าย เพื่อให้ผู้ใช้เข้าใจเหตุผลของการประเมินได้ชัดเจนยิ่งขึ้น[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span)
-
+- **การวิเคราะห์ภาพด้วย AI เชิงลึก (Advanced AI Lesion Analysis & Explainability):** ระบบใช้โมเดล Deep Learning ที่ผ่านการฝึกสอน (Train) ด้วยชุดข้อมูลภาพทางการแพทย์เฉพาะทาง (เช่น HAM10000) ผ่าน Google Colab โดยเมื่อวิเคราะห์ภาพเสร็จสิ้น ระบบจะไม่เพียงแค่บอกผลลัพธ์ แต่จะแสดงค่าความมั่นใจของโมเดล (Confidence Score / Probability) พร้อมระบบอธิบายผลเบื้องต้น (Basic Explainability) เช่น การไฮไลต์พื้นที่ (Highlighted region) บริเวณที่พบความผิดปกติบนภาพถ่าย เพื่อให้ผู้ใช้เข้าใจเหตุผลของการประเมินได้ชัดเจนยิ่งขึ้น
 ---
 
 ## แผนภาพสถาปัตยกรรมของระบบ (System Architecture)
-![System Architecture Diagram]([ให้เพื่อนใส่ลิงก์รูปภาพแผนภาพระบบที่นี่])
+![System Architecture Diagram]([<img width="925" height="474" alt="Diagram" src="https://github.com/user-attachments/assets/c8ec35b3-b9ad-45ee-8e5d-fca9fc3e7fb2" />
+])
 *ระบบประกอบด้วย Frontend ที่พัฒนาด้วย React Native เชื่อมต่อผ่าน REST API ไปยัง Backend Server และ AI Inference Server ที่ใช้ประมวลผลภาพถ่ายด้วยโมเดล Deep Learning ที่อยู่บน Cloud เพื่อลดภาระการทำงานของสมาร์ทโฟน*[span_9](start_span)[span_9](end_span)
 
 ---
@@ -65,7 +65,16 @@ npx expo start
 ---
 
 ## ภาพหน้าจอ (Screenshots)
-ใส่รูป home scan result
+<img width="868" height="1886" alt="Login" src="https://github.com/user-attachments/assets/2603b2db-feec-4092-b781-02b00603f701" />
+<img width="868" height="1886" alt="Register" src="https://github.com/user-attachments/assets/424b01a2-60f1-4c0a-946c-439efabba102" />
+<img width="868" height="1886" alt="Scan" src="https://github.com/user-attachments/assets/04f9559b-a580-45e6-a88e-7822cb62ce37" />
+<img width="868" height="1886" alt="Scan result (2)" src="https://github.com/user-attachments/assets/92886bdc-d82c-47b2-8a63-c29ad31cb98b" />
+<img width="868" height="1886" alt="Scan result" src="https://github.com/user-attachments/assets/60e97f6f-e907-4045-be8a-0f46655d42ee" />
+
+
+
+
+
 
 ---
 
