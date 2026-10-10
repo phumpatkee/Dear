@@ -43,3 +43,17 @@ example
 /android
 
 skinscan-api/.git-backup/
+
+# Large HAM10000 dataset archives
+/HAM10000_images_part_1.zip
+/HAM10000_images_part_2.zip
+
+# Training dataset and model checkpoints
+/skinscan_ai_fullset/HAM10000_images_part_1/
+/skinscan_ai_fullset/HAM10000_images_part_2/
+/skinscan_ai_fullset/model/skinscan_resnet18.pth
+
+# Large training datasets and checkpoint
+/skinscan_ai_fullset/HAM10000_images_part_1/
+/skinscan_ai_fullset/HAM10000_images_part_2/
+/skinscan_ai_fullset/model/skinscan_resnet18.pth
