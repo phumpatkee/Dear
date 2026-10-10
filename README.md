@@ -70,6 +70,23 @@ npx expo start
 <img width="868" height="1886" alt="Scan" src="https://github.com/user-attachments/assets/04f9559b-a580-45e6-a88e-7822cb62ce37" />
 <img width="868" height="1886" alt="Scan result (2)" src="https://github.com/user-attachments/assets/92886bdc-d82c-47b2-8a63-c29ad31cb98b" />
 <img width="868" height="1886" alt="Scan result" src="https://github.com/user-attachments/assets/60e97f6f-e907-4045-be8a-0f46655d42ee" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/8570859f-da81-4140-a8af-aeb1ecac52a3" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/b156e86c-8440-4c00-8e83-9e4f456ba958" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/ade44e80-1a94-44c7-a4e4-2557d1aa4066" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/97f280ae-48f6-460b-9ae9-01a994a5f64c" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/a8a5d00d-4ff2-440c-b39f-f2db1a6251c1" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/282c3be1-86bb-42a9-b72f-49b9ae712cc6" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/041694c8-6db4-4cd3-b85a-fe66b7924806" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/1627f9ea-c943-41c5-a8ae-404e768ebc10" />
+<img width="868" height="1886" alt="image" src="https://github.com/user-attachments/assets/c5d5df4c-ef96-4423-84d1-fe9f7b0f5db2" />
+
+
+
+
+
+
+
+
 
 
 
